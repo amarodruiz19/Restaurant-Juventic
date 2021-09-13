@@ -16,8 +16,8 @@
 
 
 .carousel-item{
-    height: 80vh;
-    min-height: 300px;
+    height: 100vh;
+    min-height: auto;
     background: no-repeat center center scroll;
     background-size: cover;
 }
@@ -42,4 +42,25 @@
     color: white !important;
     margin-right: 50px;
     font-size: 20px;
+}
+
+.propuesta{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/foto2@2x.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.propuesta-description{
+    width: 80%;
+    border: 2px solid red;
+}
+.container .text-description{
+    padding:20px;
+    text-align: justify;
+    font-size: 18px;
 }
