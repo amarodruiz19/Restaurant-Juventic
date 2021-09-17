@@ -163,6 +163,15 @@ h1 {
 
 /*Testimonial*/
 
+section{
+    width: 100%;
+    height: 550px;
+    background-color: #ffffff;
+    color: black ;
+    text-align: center;
+    padding: 50px;
+}
+
 .section-header {
     position: relative;
     padding-bottom: 10px;
